@@ -1,3 +1,12 @@
 .direnv
+
 __pycache__
+.mypy_cache
+
 pipeline.yaml
+
+components/**/component_metadata
+components/**/kfp_config.ini
+components/**/runtime-requirements.txt
+components/**/.dockerignore
+components/**/Dockerfile
